@@ -15,14 +15,9 @@ void birthday(char name[],int age) {
 
 
 
+int main(){
+    /**
 
-
-int main()
- {
-    // this is a comment blah
-    /*
-     * this is a multi line comment.
-     */
     printf("I like pizza!\n");
     printf("Its really good!\n");
     printf("1\t2\t3\n\t4");                               // this for even spacing between the chars 1 2 3, \n adds a new line
@@ -89,6 +84,20 @@ int main()
     for(int i =0; i<sizeof(prices)/sizeof (prices[0]);i++){
         printf("$%.21f\n",prices[i]);
     }
+    **/
 
-    return 0;
+     // bit manipulation
+
+     int X = 6;
+     int Y = 12;
+     int z = 0;
+     z = X&Y; // returns 1 if any of the bits is 10
+     Y = X^Y; // returns 0 even if there are two ones but returns 0ne if there is just one 1
+     X = z >> 1; // shifts the bit to the right means cuts the value into half
+     printf(" AND %d %d %d\n", z,Y,X); // printout statement to check the values
+     return 0;
+
+
+
+
 }
