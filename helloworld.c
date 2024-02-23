@@ -95,7 +95,22 @@ int main(){
      Y = X^Y; // returns 0 even if there are two ones but returns 0ne if there is just one 1
      X = z >> 1; // shifts the bit to the right means cuts the value into half
      printf(" AND %d %d %d\n", z,Y,X); // printout statement to check the values
+
+
+    int numbers[] = {1, 2, 3, 4, 5};
+    int sum = 0;
+
+    // Calculate the sum of array elements
+    for (int i = 0; i < 5; i++) {
+        sum += numbers[i];
+    }
+
+    // Print the sum
+    printf("Sum: %d\n", sum);
+
      return 0;
+
+
 
 
 
